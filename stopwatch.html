@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .container
+        {
+            height: 200px;
+            width: 500px;
+            border: 1px solid black;
+            text-align: center;
+            margin: 200px auto;
+        }
+        .container>.watch
+        {
+            width: 92%;
+            padding: 20px;
+            background-color: black;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .container>h3
+        {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .container>.items>span
+        {
+            padding: 10px 20px;
+            border-radius: 10px;
+            color: black;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="watch">Stop Watch</div>
+        <h3>00:00</h3>
+        <div class="items">
+            <span style="background-color: green;">Start</span>
+            <span style=" background-color: #ffff00">Reset</span>
+            <span style="background-color: red">Stop</span>
+        </div>
+    </div>
+</body>
+</html>
